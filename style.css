@@ -1,0 +1,82 @@
+.* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.album-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.Judul-Lagu {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.penyanyi {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.lirik {
+  font-size: 14px;
+  font-family: Sans-Serif;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lirik p {
+  margin: 5px 0;
+}
+
+.audio {
+  width: 100%;
+  outline: none;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
